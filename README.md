@@ -7,7 +7,7 @@ This project demonstrates the implementation of a **Modern Data Stack** on Micro
 The goal is to provide actionable business insights through a scalable and automated cloud infrastructure.
 
 ## 🏗️ Architecture
-![Architecture Diagram](./architecture/design_v1.png)
+![Architecture Diagram](./architecture/ARCHIECTURE HIGH LEVEL AZURE-ETL-PIPELINE PROJET 1.png)
 
 ## 🛠️ Tech Stack
 * **Orchestration:** Azure Data Factory (ADF)
@@ -41,4 +41,4 @@ The project follows a modular ETL approach:
 
 ---
 **Author:** Abdallah ASSOUMANOU
-*Engineering Student specializing in Data Engineering * AI*
+*Engineering Student specializing in Data Engineering and AI*
