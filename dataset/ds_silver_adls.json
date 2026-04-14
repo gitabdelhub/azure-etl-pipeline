@@ -1,0 +1,35 @@
+{
+    "name": "ds_silver_adls",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adls_gen2",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": {
+                    "value": "@dataset().fileName",
+                    "type": "Expression"
+                },
+                "folderPath": {
+                    "value": "@dataset().folderPath",
+                    "type": "Expression"
+                },
+                "fileSystem": "silver"
+            },
+            "compressionCodec": "snappy"
+        },
+        "parameters": {
+            "fileName": {
+                "type": "String"
+            },
+            "folderPath": {
+                "type": "String"
+            }
+        },
+        "schema": []
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "ds_source_http",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_http_source",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": {
+                    "value": "@dataset().relativeUrl",
+                    "type": "Expression"
+                }
+            }
+        },
+        "parameters": {
+            "relativeUrl": {
+                "type": "String"
+            }
+        },
+        "schema": {}
+    }
+}
