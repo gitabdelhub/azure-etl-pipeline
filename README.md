@@ -1,21 +1,19 @@
 # Azure End-to-End Data Engineering Pipeline: Amazone_prime_title
 
 ## 📌 Project Overview
-This project demonstrates the implementation of a **Modern Data Stack** on Microsoft Azure. It automates the extraction, transformation, and loading (ETL) of [Source Data Name] into a centralized data warehouse using the **Medallion Architecture** (Bronze, Silver, and Gold layers).
+This project demonstrates the implementation of a **Modern Data Stack** on Microsoft Azure. It automates the extraction, transformation, and loading (ETL) of the dataset Amazone_prime_title
+  into a centralized data warehouse using the **Medallion Architecture** (Bronze, Silver, and Gold layers).
 
 The goal is to provide actionable business insights through a scalable and automated cloud infrastructure.
 
 ## 🏗️ Architecture
 ![Architecture Diagram](./architecture/design_v1.png)
-*[Placeholder: Upload your architecture diagram showing the flow: Source -> ADLS Gen2 -> ADF -> Databricks -> Synapse -> Power BI]*
 
 ## 🛠️ Tech Stack
 * **Orchestration:** Azure Data Factory (ADF)
 * **Data Lake:** Azure Data Lake Storage (ADLS) Gen2
 * **Data Processing:** Azure Databricks (PySpark)
-* **Data Warehouse:** Azure Synapse Analytics / SQL Database
 * **Visualization:** Power BI
-* **Security:** Azure Key Vault (Secret Management)
 
 ## ⚡ Data Pipeline Workflow
 The project follows a modular ETL approach:
@@ -27,7 +25,6 @@ The project follows a modular ETL approach:
 
 ## 📊 Business Insights
 ![Power BI Dashboard](./images/dashboard_preview.png)
-*[Placeholder: Insert a screenshot of your final Power BI dashboard]*
 
 ## 🚀 Key Features Implemented
 * **Scalability:** Managed through Databricks clusters and ADF triggers.
@@ -43,5 +40,5 @@ The project follows a modular ETL approach:
 * `/images`: Screenshots and visual assets for documentation.
 
 ---
-**Author:** [Your Name]
-*Engineering Student specializing in Data Engineering*
+**Author:** Abdallah ASSOUMANOU
+*Engineering Student specializing in Data Engineering * AI*
