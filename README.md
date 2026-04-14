@@ -7,7 +7,7 @@ This project demonstrates the implementation of a **Modern Data Stack** on Micro
 The goal is to provide actionable business insights through a scalable and automated cloud infrastructure.
 
 ## 🏗️ Architecture
-![Architecture Diagram](./architecture/ARCHIECTURE_HIGH LEVEL_AZURE_ETL_PIPELINE_PROJET_1.png)
+![Architecture Diagram](./architecture/architecture.png)
 
 ## 🛠️ Tech Stack
 * **Orchestration:** Azure Data Factory (ADF)
