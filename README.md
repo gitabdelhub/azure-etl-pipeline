@@ -1,4 +1,4 @@
-# Azure End-to-End Data Engineering Pipeline: [Industry/Dataset Name]
+# Azure End-to-End Data Engineering Pipeline: Amazone_prime_title
 
 ## 📌 Project Overview
 This project demonstrates the implementation of a **Modern Data Stack** on Microsoft Azure. It automates the extraction, transformation, and loading (ETL) of [Source Data Name] into a centralized data warehouse using the **Medallion Architecture** (Bronze, Silver, and Gold layers).
