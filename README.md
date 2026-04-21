@@ -18,6 +18,8 @@ The goal is to provide actionable business insights through a scalable and autom
 ## ⚡ Data Pipeline Workflow
 The project follows a modular ETL approach:
 1.  **Ingestion (Bronze):** Raw data is extracted from [Source] via Azure Data Factory and stored in the Bronze container in its original format.
+![Architecture Diagram](./architecture/phase_ingestion_pipeline_azure.png)
+
 2.  **Transformation (Silver):** Databricks notebooks process the raw data by cleaning, handling missing values, and enforcing schema constraints.
 3.  **Aggregation (Gold):** Data is modeled into Fact and Dimension tables, ready for analytical consumption.
 4.  **Loading & Serving:** The refined Gold data is loaded into Synapse Analytics to serve as the "Single Source of Truth."
