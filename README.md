@@ -35,7 +35,6 @@ The project follows a modular ETL approach:
 * **Automation:** End-to-end orchestration using ADF pipelines.
 
 ## 📂 Repository Structure
-* `/pipelines`: Exported JSON definitions for Azure Data Factory.
 * `/notebooks`: PySpark scripts used for Bronze-to-Gold transformations.
 * `/architecture`: High-resolution system design diagrams.
 * `/images`: Screenshots and visual assets for documentation.
