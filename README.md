@@ -26,7 +26,7 @@ The project follows a modular ETL approach:
 5.  **Visualization:** A Power BI dashboard connects to the Gold layer to track KPIs such as [KPI 1] and [KPI 2].
 
 ## 📊 Business Insights
-![Power BI Dashboard](./images/dashboard_preview.png)
+![Power BI Dashboard](./images/azure_etl_dashboard.png)
 
 ## 🚀 Key Features Implemented
 * **Scalability:** Managed through Databricks clusters and ADF triggers.
