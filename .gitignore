@@ -60,9 +60,10 @@ temp/
 *.bak
 
 # Data files (avoid committing large raw data)
-*.csv
 *.parquet
 *.xlsx
 *.xls
 *.json.gz
 data/
+# Keep the sample dataset tracked
+!dataset/*.csv
