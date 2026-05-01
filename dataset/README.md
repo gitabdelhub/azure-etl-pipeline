@@ -2,7 +2,7 @@
 
 ## amazon_prime_titles.csv
 
-Contains metadata for ~9 687 titles (movies and TV shows) available on Amazon Prime Video.
+Contains metadata for ~9,687 titles (movies and TV shows) available on Amazon Prime Video.
 
 | Column | Description |
 |---|---|

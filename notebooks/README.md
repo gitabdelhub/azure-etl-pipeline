@@ -4,7 +4,7 @@
 
 Run the notebooks in the following order against your Databricks cluster:
 
-1. **Ingestion (Bronze)** — handled by the Azure Data Factory pipeline (no notebook; ADF copies the raw CSV to the `bronze` ADLS container).
+1. **Ingestion (Bronze)** — handled by the Azure Data Factory pipeline (no notebook; ADF copies the raw CSV to the `bronze` ADLS container). Ensure this step is complete before running the notebooks below.
 2. **`Prime_Silver_Layer_Transformation.ipynb`** — reads from Bronze, cleans and standardises the data, writes a Delta table to the `silver` container.
 3. **`gold_layer_transfo.ipynb`** — reads from Silver, enriches the data (date parsing, category splits), writes the final Delta table to `gold_layer.prime_gold`.
 
