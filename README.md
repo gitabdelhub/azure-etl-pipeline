@@ -34,10 +34,6 @@ The project follows a modular ETL approach:
 * **Data Quality:** Basic data validation and null-handling during the Silver transformation phase.
 * **Automation:** End-to-end orchestration using ADF pipelines.
 
-## 🔒 Security
-Never commit Azure Storage account keys, SAS tokens, or any secrets to this repository.
-Use `dbutils.secrets.get(scope="<scope>", key="<key>")` in Databricks notebooks, backed by Azure Key Vault.
-
 ## 📂 Repository Structure
 * `/dataset`: Sample CSV source data and schema documentation.
 * `/notebooks`: PySpark notebooks for Silver and Gold transformations.
